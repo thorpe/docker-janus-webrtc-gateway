@@ -5,3 +5,6 @@ cd usrsctp
 ./configure --prefix=/usr
 make
 sudo make install
+
+cd ..
+rm -rf ./usrsctp
