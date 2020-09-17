@@ -8,9 +8,6 @@
 ](https://hub.docker.com/r/efacilitation/docker-janus-webrtc-gateway/)
 
 - Ubuntu 18.04 (Base on AWS)
-## Limitations
-
-Disables RabbitMQ and MQTT
 
 ## Ports
 

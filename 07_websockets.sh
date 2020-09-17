@@ -1,3 +1,4 @@
+cd ~
 git clone https://github.com/warmcat/libwebsockets.git
 cd libwebsockets
 git checkout v3.2-stable
