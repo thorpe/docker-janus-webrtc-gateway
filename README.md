@@ -7,13 +7,10 @@
 -   This repository is published here: [https://hub.docker.com/r/efacilitation/docker-janus-webrtc-gateway/
 ](https://hub.docker.com/r/efacilitation/docker-janus-webrtc-gateway/)
 
+- Ubuntu 18.04 (Base on AWS)
 ## Limitations
 
 Disables RabbitMQ and MQTT
-
-## Build
-
-`docker build -t efacilitation/docker-janus-webrtc-gateway .`
 
 ## Ports
 
@@ -33,4 +30,4 @@ This container does not need any container linked to.
 
 ## Run
 
-`docker run -d -p 80:80 -p 7088:7088 -p 8088:8088 -p 8188:8188 efacilitation/docker-janus-webrtc-gateway:latest`
+/opt/janus/bin/janus --stun-server=stun.l.google.com:19302
